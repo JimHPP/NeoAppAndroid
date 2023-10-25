@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         val btnEnviar = findViewById<AppCompatButton>(R.id.btnEnviar)
         val eTName = findViewById<AppCompatEditText>(R.id.eTName)
         notification()
+        //Topics
+        FirebaseMessaging.getInstance().subscribeToTopic("testing")
+
         btnEnviar.setOnClickListener {
             if(eTName.text.toString().isNotEmpty()){
                 val intent = Intent(this, ResultActivity::class.java)
