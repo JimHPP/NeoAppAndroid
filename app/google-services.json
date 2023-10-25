@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452603595648",
+    "project_id": "neokm-7bc44",
+    "storage_bucket": "neokm-7bc44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452603595648:android:34c7e940f877dc4edb4f65",
+        "android_client_info": {
+          "package_name": "com.neo.neokm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2tGgsNaD-WSop7R3Kiq3FPopMl5MegNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
